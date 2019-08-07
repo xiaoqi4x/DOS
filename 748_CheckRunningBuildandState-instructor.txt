@@ -1,0 +1,17 @@
+must do:
+
+1.create folder C:\Tools\Log_running on test pc
+-----CheckBuildInfor.bat------>get the information of rack
+-----PsExec.exe----> we need to use this exe to execute batch on remote control pc 
+
+2.create folder C:\Tools\Log_running on control pc
+-----PsExec.exe----> we need to use this exe to execute batch on remote control pc 
+
+3.control pc username and password is same with test pc
+
+
+note:
+1.u can execute CheckBuildInfor.bat to check rack information directly on test pc, but need to add "pause" at the end of batch.
+
+shutdown: javaw.exe
+

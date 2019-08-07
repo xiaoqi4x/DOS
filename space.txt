@@ -1,0 +1,25 @@
+ Volume in drive C is OSDisk
+ Volume Serial Number is B0C1-E0A1
+
+ Directory of C:\Users\xiaoqi4x
+
+2015/09/22  13:04    <DIR>          .
+2015/09/22  13:04    <DIR>          ..
+2015/07/13  16:27    <DIR>          .cisco
+2015/08/28  15:08    <DIR>          1
+2015/08/28  15:08    <DIR>          2
+2015/08/17  14:37    <DIR>          Contacts
+2015/09/21  16:46    <DIR>          Desktop
+2015/09/18  11:33    <DIR>          Documents
+2015/09/22  14:02    <DIR>          Downloads
+2015/08/17  14:37    <DIR>          Favorites
+2015/08/17  14:37    <DIR>          Links
+2015/07/21  19:09    <DIR>          mcafee dlp quarantined files
+2015/08/17  14:37    <DIR>          Music
+2015/09/17  11:40    <DIR>          Pictures
+2015/07/13  14:41    <DIR>          Roaming
+2015/08/17  14:37    <DIR>          Saved Games
+2015/08/17  14:37    <DIR>          Searches
+2015/08/17  14:37    <DIR>          Videos
+               0 File(s)              0 bytes
+              18 Dir(s)  25,455,947,776 bytes free

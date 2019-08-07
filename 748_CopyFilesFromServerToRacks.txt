@@ -1,0 +1,61 @@
+@echo off
+::title Copy file or folder from server to racks
+	@echo copying file..........
+	timeout /T 5
+	set /a racks=0
+	for %%i in (027,006,004,008,009,015,018,023,024,025,026,029,041,044,031,032,033,034,035,036,037,039,042,043,040,045) do (
+		xcopy  \\bjswsr002.ccr.corp.intel.com\Log\Tools\XMM7480\toolFor748\DeleteBin.bat \\BEJSRTW%%i.ccr.corp.intel.com\Tools /v /y
+		timeout /T 1
+		set /a racks=racks+1
+	)
+	for %%j in (031,032,033,043,035,100,030,034,040,045,046,047,048,049,050,051) do (
+		xcopy  \\bjswsr002.ccr.corp.intel.com\Log\Tools\XMM7480\toolFor748\DeleteBin.bat \\BJSR%%j.ccr.corp.intel.com\Tools /v /y
+		timeout /T 1
+		set /a racks=racks+1
+	)
+pause
+::BJ_7480_USB_033
+::BJ_7480_USB_W027 
+::BJ_7480_USB_043 
+::BJ_7480_USB_035 
+::BJ_7480_USB_100 
+::BJ_7480_USB_030  
+::BJ_7480_USB_W006 
+::BJ_7480_USB_W004
+::BJ_7480_USB_W008
+::BJ_7480_USB_034
+::BJ_7480_USB_045
+::BJ_7480_USB_W026
+::BJ_7480_USB_047
+::BJ_7480_USB_046
+::BJ_7480_USB_048  
+::BJ_7480_USB_049
+::BJ_7480_USB_050
+::BJ_7480_USB_051
+::BJ_7480_USB_W041
+::BJ_7480_USB_W044
+::BJ_7480_USB_W031
+::BJ_7480_USB_W032  
+::BJ_7480_USB_W033
+::BJ_7480_USB_W034
+::BJ_7480_USB_W035
+::BJ_7480_USB_W036
+::BJ_7480_USB_W023
+::BJ_7480_USB_W024  
+::BJ_7480_USB_W025
+::BJ_7480_USB_W039
+::BJ_7480_SUS_USB_031
+::BJ_7480_SUS_USB_032
+::BJ_7480_SUS_USB_W037
+::BJ_7480_SUS_USB_W043
+::BJ_7480_SUS_USB_W018
+::BJ_7480_SUS_USB_W015 
+::BJ_7480_SUS_USB_W040
+::BJ_7480_SUS_USB_W045
+::BJ_7480_BAS_USB_W009
+::BJ_7480_BAS_USB_040
+::BJ_7480_USB_W042
+::BJ_7480_USB_W029
+
+
+ 
